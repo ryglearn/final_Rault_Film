@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+
+@theme {
+    /* ✅ 1. Warna Utama */
+    --color-rault-500: #38B6FF;
+    --color-rault-900: #004166;
+
+    /* ✅ 3. Font */
+    --font-inter: 'Inter', sans-serif;
+    --font-quicksand: 'Quicksand', sans-serif;
+}
+
+
+
+
+
