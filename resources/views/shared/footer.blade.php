@@ -36,7 +36,7 @@
             </div>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
-            <a href="https://www.facebook.com/raffi.subagyo.5?locale=id_ID" class="text-gray-400 hover:text-rault-500">
+            <a href="#" class="text-gray-400 hover:text-rault-500">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd"
@@ -44,7 +44,7 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <a href="https://www.instagram.com/raffyoga19/" class="text-gray-400 hover:text-rault-500">
+            <a href="#" class="text-gray-400 hover:text-rault-500">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd"
@@ -60,7 +60,7 @@
                     </path>
                 </svg>
             </a>
-            <a href="#https://github.com/ryglearn/test" class="text-gray-400 hover:text-rault-500">
+            <a href="#" class="text-gray-400 hover:text-rault-500">
                 <span class="sr-only">GitHub</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd"
