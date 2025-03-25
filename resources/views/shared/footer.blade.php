@@ -30,9 +30,13 @@
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-rault-500">
-                    Terms
+                @auth     
+                @if(auth()->user()->role === 'admin')
+                <a href="{{ url('users  ') }}" class="text-base leading-6 text-gray-500 hover:text-rault-500 ">
+                    Admin Panel
                 </a>
+                @endif
+                @endauth
             </div>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
