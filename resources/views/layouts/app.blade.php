@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>@yield('title')</title>
     <style>
@@ -39,7 +37,9 @@
         {{-- HEADER SECTION --}}
         @include('shared.header')
         {{-- MAIN CONTENT SECTION --}}
-        @yield('content')
+        <div class="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
+            @yield('content')
+        </div>
         {{-- FOOTER SECTION --}}
         @include('shared.footer')
     </div>

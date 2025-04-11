@@ -39,7 +39,7 @@
             <div id="dropdownMenu"
                 class="hidden absolute right-0 top-full mt-2 w-40 bg-white rounded-lg shadow-lg z-50">
                 @auth
-                    <a href="{{ url('profile') }}" class="block px-4 py-2 text-sm font-bold text-black hover:bg-gray-100">
+                    <a href="#" class="block px-4 py-2 text-sm font-bold text-black hover:bg-gray-100">
                         {{ auth()->user()->name }}
                     </a>
 

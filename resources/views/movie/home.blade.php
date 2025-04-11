@@ -3,7 +3,7 @@
 @section('content')
     <div class="h-full min-h-screen flex flex-col dasaran">
         {{-- banner section --}}
-        <div class="w-full h-[512px] flex flex-col relative bg-black">
+        <div class="w-full h-[512px] flex flex-col relative bg-black rounded-[32px]">
 
             {{-- banner data --}}
             @foreach ($banner as $bannerItem)
@@ -13,10 +13,10 @@
                 <div class="flex flex-row items-center  w-full h-full relative slide ">
 
                     {{-- image --}}
-                    <img src="{{ $bannerImage }}" class="absolute w-full h-full object-cover">
+                    <img src="{{ $bannerImage }}" class="absolute w-full h-full object-cover  rounded-[32px]">
 
                     {{-- overlay --}}
-                    <div class="w-full h-full absolute bg-black/40 "></div>
+                    <div class="w-full h-full absolute bg-black/40 rounded-[32px] "></div>
                     <div class="w-10/12 flex flex-col ml-28 z-10 ">
                         <span class="font-bold font-inter text-4xl text-white ">{{ $bannerItem->title }}</span>
                         <span class="font-inter text-xl text-white w-1/2 line-clamp-2">{{ $bannerItem->overview }}</span>
