@@ -22,7 +22,7 @@
         {{-- Header Section --}}
         <header class="w-full bg-transparent h-[96px] drop-shadow-lg flex flex-row items-center p-5 mb-10 z-10 ">
             <div class="w-1/3 pl-5 ">
-                <a href="/movie"
+                <a href="/movies"
                     class="uppercase text-base mx-5 text-white hover:text-rault-500 duration-200 font-inter text-header ">Movies</a>
                 <a href="/tv-show"
                     class="uppercase text-base mx-5 text-white hover:text-rault-500 duration-200 font-inter text-header">TV
