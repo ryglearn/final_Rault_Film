@@ -4,6 +4,7 @@ use App\Http\Controllers\MovieController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\WatchController;
 
 // Semua orang bisa mengakses ini (tanpa login)
 Route::get('/', [MovieController::class, 'index'])->name('home');
@@ -32,4 +33,9 @@ Route::middleware(['auth'])->group(function () {
     // Route::get('/wishlist', [WishlistController::class, 'index'])->name('wishlist');
     // Route::post('/wishlist/add', [WishlistController::class, 'store'])->name('wishlist.add');
     // Route::delete('/wishlist/remove/{id}', [WishlistController::class, 'destroy'])->name('wishlist.remove');
+
 });
+
+// raoute of watch 
+Route::get('/watch/{slug}', [WatchController::class, 'show'])->name('watch');
+
